@@ -1,0 +1,997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chinese Restaurant\n"
+"POT-Creation-Date: 2015-06-30 23:33+0200\n"
+"PO-Revision-Date: 2015-06-30 23:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Ketchupthemes.com <info@ketchupthemes.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:12
+msgid ""
+"Well, this page does not exist. Maybe search\n"
+"                    something else?"
+msgstr ""
+
+#: ../archive.php:8
+msgid "Archive for: "
+msgstr ""
+
+#: ../archive.php:10 ../archive.php:12 ../framework/ketchup-functions.php:2306
+#: ../framework/ketchup-functions.php:2309
+#: ../framework/ketchup-functions.php:2312
+msgid "Archive for "
+msgstr ""
+
+#: ../archive.php:18 ../category.php:12 ../search.php:10 ../tag.php:11
+msgid "   Page:\n"
+msgstr ""
+
+#: ../category.php:9
+msgid "You are viewing posts in: "
+msgstr ""
+
+#: ../comments.php:20 ../comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:21 ../comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:22 ../comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:39
+msgid "http://ketchupthemes.com/chinese-theme-restaurant/"
+msgstr ""
+
+#: ../footer.php:41
+msgid "Chinese Restaurant Theme"
+msgstr ""
+
+#: ../footer.php:44
+msgid "&copy;"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:29
+#: ../framework/libs/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:30
+#: ../framework/libs/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:31
+#: ../framework/libs/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:32
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:47
+#: ../framework/libs/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:48
+#: ../framework/libs/class-tgm-plugin-activation.php:177
+#: ../framework/libs/class-tgm-plugin-activation.php:1939
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:49
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:67
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:68
+msgid "General Settings for this theme."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:105
+msgid "Upload a favicon"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:118
+msgid "Upload a logo - PRO only"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:130
+msgid "Upload a no image "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:143
+msgid "Header Images"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:144
+msgid ""
+"The header images that are visible in specific pages like\n"
+"            category, archive, tag, etc."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:193
+msgid "Category Header Image "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:205
+msgid "Tag Header Image "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:216
+msgid "Archive Header Image "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:227
+msgid "Search Header Image "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:238
+msgid "Styling"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:239
+msgid "Description of what this panel does."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:247
+msgid "Social Icon Styles (Social Widget)."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:248
+msgid "CSS styles of the social icons."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:258
+msgid "Navigation Styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:259
+msgid ""
+"CSS styles of the navigation menus.Change link colors,\n"
+"            hovers, sub-menu colors."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:270
+msgid "General Element Styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:271
+msgid ""
+"CSS styles of the general elements like body colors,\n"
+"            paragraph colors"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:281
+msgid "Comment Styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:282
+msgid "CSS styles of the comment section."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:292
+msgid "Sidebar Styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:293
+msgid "CSS styles of the main sidebar styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:303
+msgid "Specific Widget styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:304
+msgid "CSS styles of specific widgets."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:314
+msgid "Footer Area."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:315
+msgid "CSS style of the footer."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:325
+msgid "Footer widget styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:326
+msgid "CSS styles of the footer styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:336
+msgid "Copyright styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:337
+msgid "CSS styles of the copyright area."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:347
+msgid "Other Styles."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:348
+msgid "CSS styles other elements."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:786
+msgid "Color of the social icon."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:798
+msgid "Background color of the icon."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:810
+msgid "Icon color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:822
+msgid "Background color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:836
+msgid "Current Menu item color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:848
+msgid "Menu link color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:860
+msgid "Menu link color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:872
+msgid "Submenu background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:884
+msgid "Submenu background color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:897
+msgid "Submenu link color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:910
+msgid "Submenu link color - hover color"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:925
+msgid "H1-H6 heading color"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:938
+msgid "Applies to page links"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:951
+msgid "Applies to page links - hover state"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:964
+msgid "Applies to main body text"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:980
+msgid "Headings in comment section"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:993
+msgid "Links in comment section"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1006
+msgid "Links in comment section - Hover state"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1019
+msgid "Submit comment button background"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1032
+msgid "Submit comment button text color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1045
+msgid "Submit comment button background color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1058
+msgid "Submit comment button text color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1074
+msgid "Widget headings color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1087
+msgid "Widget link color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1100
+msgid "Widget link color - hover state"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1113
+msgid "Widget text body color"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1128
+msgid "Tagcloud tag background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1141
+msgid "Tagcloud text color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1154
+msgid "Tagcloud background color - hover"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1167
+msgid "Tagcloud text color - hover."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1180
+msgid "Calendar widget header background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1193
+msgid "Calendar widget header text color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1206
+msgid "Calendar widget link background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1219
+msgid "Calendar widget link hover background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1234
+msgid "Footer Background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1249
+msgid "Footer widget heading color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1262
+msgid "Footer widget links color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1275
+msgid "Footer widget links color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1288
+msgid "Footer widget body text color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1301
+msgid "Footer widget tagcloud background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1314
+msgid "Footer widget tagcloud text color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1327
+msgid "Footer widget tagcloud background color. hover state"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1340
+msgid "Footer widget tagcloud text color - hover state"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1356
+msgid "Copyright area background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1369
+msgid "Copyright area links color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1382
+msgid "Copyright area links color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1395
+msgid "Copyright area text color - hover state."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1410
+msgid "Slide title color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1424
+msgid "Slider pager background color."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1437
+msgid "Social Networks"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1438
+msgid "Add your social networks."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1531
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1541
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1551
+msgid "Google plus URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1561
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1571
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1581
+msgid "RSS URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1591
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1601
+msgid "Instagram URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1611
+msgid "Youtube URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1621
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1634
+msgid "Slider Settings"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1635
+msgid "Slider Settings."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1712
+msgid "Disable Slider"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1716
+#: ../framework/ketchup-functions.php:1744
+#: ../framework/ketchup-functions.php:1758
+#: ../framework/ketchup-functions.php:1808
+msgid "Yes"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1717
+#: ../framework/ketchup-functions.php:1743
+#: ../framework/ketchup-functions.php:1757
+#: ../framework/ketchup-functions.php:1807
+msgid "No"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1727
+msgid "Slides Number"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1739
+msgid "Show pager?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1753
+msgid "Show arrow navigation ?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1767
+msgid "Transition Type ?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1771
+msgid "Fade"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1772
+msgid "Horizontal"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1773
+msgid "Vertical"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1782
+msgid "Slide speed ?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1793
+msgid "Pause between slides ?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1803
+msgid "Autoplay?"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1819
+msgid "Contact Page"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1820
+msgid "Settings for page templates in this theme."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1949
+msgid "Google Map . Please write only the source (src) of the iframe"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1960
+msgid "Contact Form title."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1971
+msgid ""
+"Contact Form shortcode.Paste the shortcode from the  \"Contact form\n"
+"             7\"\n"
+"            plugin."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1984
+msgid "Contact details title."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:1995
+msgid "Write your address"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2006
+msgid "Write your phone"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2017
+msgid "Write your email"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2028
+msgid "Monday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2039
+msgid "Tuesday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2050
+msgid "Wednesday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2061
+msgid "Thursday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2072
+msgid "Friday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2083
+msgid "Saturday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2094
+msgid "Sunday Working hours"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2107
+msgid "Copyright Text"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2108
+msgid "Add your copyright. You can use HTML."
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2126
+msgid "Copyright Area text"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2165
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2174
+msgid "PRO"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2209
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2299
+#: ../framework/ketchup-functions.php:2302
+#: ../framework/ketchup-functions.php:2305
+#: ../framework/ketchup-functions.php:2308
+#: ../framework/ketchup-functions.php:2311
+#: ../framework/ketchup-functions.php:2314
+#: ../framework/ketchup-functions.php:2317
+msgid "Home"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2299
+msgid "You are currently viewing the category: "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2302
+msgid "You are currently viewing the tag archive for: "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2315
+msgid "Search Results for the term: "
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2421
+msgid "&laquo;"
+msgstr ""
+
+#: ../framework/ketchup-functions.php:2422
+msgid "&raquo;"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:531
+#: ../framework/libs/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1287
+#: ../framework/libs/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1309
+#: ../framework/libs/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2053
+#: ../framework/libs/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2053
+#: ../framework/libs/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/libs/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/templates/content-archive.php:28
+#: ../framework/templates/content-archive.php:77
+#: ../framework/templates/content-blog-page.php:28
+#: ../framework/templates/content-blog-page.php:76
+#: ../framework/templates/content-category.php:33
+#: ../framework/templates/content-category.php:83
+#: ../framework/templates/content-post-template.php:22
+#: ../framework/templates/content-search.php:28
+#: ../framework/templates/content-search.php:76
+#: ../framework/templates/content-tag.php:29
+#: ../framework/templates/content-tag.php:78
+msgid "by "
+msgstr ""
+
+#: ../framework/templates/content-archive.php:37
+#: ../framework/templates/content-archive.php:86
+#: ../framework/templates/content-blog-page.php:37
+#: ../framework/templates/content-blog-page.php:85
+#: ../framework/templates/content-category.php:42
+#: ../framework/templates/content-category.php:92
+#: ../framework/templates/content-post-template.php:28
+#: ../framework/templates/content-search.php:37
+#: ../framework/templates/content-search.php:85
+#: ../framework/templates/content-tag.php:38
+#: ../framework/templates/content-tag.php:87
+msgid "No comments"
+msgstr ""
+
+#: ../framework/templates/content-archive.php:38
+#: ../framework/templates/content-archive.php:87
+#: ../framework/templates/content-blog-page.php:38
+#: ../framework/templates/content-blog-page.php:86
+#: ../framework/templates/content-category.php:43
+#: ../framework/templates/content-category.php:93
+#: ../framework/templates/content-post-template.php:29
+#: ../framework/templates/content-search.php:38
+#: ../framework/templates/content-search.php:86
+#: ../framework/templates/content-tag.php:39
+#: ../framework/templates/content-tag.php:88
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/templates/content-archive.php:38
+#: ../framework/templates/content-archive.php:87
+#: ../framework/templates/content-blog-page.php:38
+#: ../framework/templates/content-blog-page.php:86
+#: ../framework/templates/content-category.php:43
+#: ../framework/templates/content-category.php:93
+#: ../framework/templates/content-post-template.php:29
+#: ../framework/templates/content-search.php:38
+#: ../framework/templates/content-search.php:86
+#: ../framework/templates/content-tag.php:39
+#: ../framework/templates/content-tag.php:88
+msgid "% Comments"
+msgstr ""
+
+#: ../framework/templates/content-archive.php:116
+#: ../framework/templates/content-search.php:116
+#: ../framework/templates/content-tag.php:116
+msgid "No posts"
+msgstr ""
+
+#: ../framework/templates/content-page-template.php:25
+msgid "Pages:"
+msgstr ""
+
+#: ../framework/templates/content-page-template.php:54
+msgid "Well, it seems that nothing is here.."
+msgstr ""
+
+#: ../functions.php:28
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:127
+msgid "Add a menu"
+msgstr ""
+
+#: ../functions.php:281
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:283
+msgid ""
+"This is the main sidebar.It is in every page - post and\n"
+"        in the blog page. However you can override this setting from within "
+"each post."
+msgstr ""
+
+#: ../functions.php:296
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: ../functions.php:298
+msgid "This is the sidebar in the footer, on the left"
+msgstr ""
+
+#: ../functions.php:306
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: ../functions.php:308
+msgid "This is the sidebar in the footer, on the right."
+msgstr ""
+
+#: ../functions.php:342
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:346
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:346
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:352
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../search.php:7
+msgid "Search results for the term: "
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:5
+msgid "Widgetized Sidebar"
+msgstr ""
+
+#: ../sidebar.php:6
+msgid ""
+"This panel is active and ready for you to add\n"
+"            some widgets via the WP Admin"
+msgstr ""
+
+#: ../tag.php:8
+msgid "You are viewing posts tagged with: "
+msgstr ""

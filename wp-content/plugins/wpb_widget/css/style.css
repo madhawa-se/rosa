@@ -1,0 +1,20 @@
+.ur-block {
+	padding: 0px 5%;
+}
+.ur-block .img {
+	text-align: center;
+	margin-top: 40px;
+}
+.ur-block .img >img {
+	width: 100px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.ur-block p {
+	margin-top: 20px;
+	text-align: left;
+}
+.ur-block h4 {
+	border-radius: 0 !important;
+	border-bottom: 1px solid #C09A5F !important;
+}
