@@ -48,99 +48,25 @@ if ( !get_theme_mod( 'hide_promo_bar' ) ):
 				<?php echo esc_html(get_theme_mod('featured_textbox')); ?>
 			</h3>
 			<?php if (true or get_theme_mod('featured_button_url')) : ?>
-			<div onClick="mad_drop()" class="featuretext_button animated" data-fx="slideInRight">
-				<p href="<?php echo esc_url(get_theme_mod('featured_button_url')); ?>">
+			<div  onClick="mad_drop()" class="featuretext_button animated" data-fx="slideInRight">
+				<button href="<?php echo esc_url(get_theme_mod('featured_button_url')); ?>">
 					<?php if (get_theme_mod('featured_btn_textbox')): echo(get_theme_mod('featured_btn_textbox'));
             else: echo __('Find out more', 'brasserie');
             endif; ?>
-				</p>
+				</button>
 			</div>
 			<?php endif; ?>
 			<div class="featuretext_bookpanel" id="featuretext_bookpanel">
 				<!-- booking panel -->
 				<div class="booking-panel">
-					<div class="booking-blocks">
-						<h3>Date</h3>
-						<p>hello world</p>
+
+					<div>
+						<?php 
+				  $my_post = get_page_by_title( 'booking', OBJECT, 'post' );
+				  $mapcode= $my_post->post_content;
+			      echo $mapcode; 
+				?>
 					</div>
-					<div class="booking-blocks">
-						<h3>select</h3>
-						<div class="">
-							<div class="dropdown">
-								<button>select</button>
-								<div class="dropdown-content">
-									<div class="select-panel">
-
-										<ul>
-											<li>
-												<div class="select-block">
-													<div class="">
-														<p>room</p>
-													</div>
-													<div class="select-check"></div>
-													<div class="select-dis">
-
-														<img src="https://s-media-cache-ak0.pinimg.com/736x/e1/b6/1b/e1b61b9798a2aeaf952922b84ecae791.jpg"/>
-													</div>
-													<br>
-												</div>
-
-											</li>
-											<li>
-												<div class="select-block">
-													<div class="">
-														<p>room</p>
-													</div>
-													<div class="select-check"></div>
-													<div class="select-dis">
-
-														<img src="https://s-media-cache-ak0.pinimg.com/736x/e1/b6/1b/e1b61b9798a2aeaf952922b84ecae791.jpg"/>
-													</div>
-													<br>
-												</div>
-
-											</li>
-											<li>
-												<div class="select-block">
-													<div class="">
-														<p>room</p>
-													</div>
-													<div class="select-check"></div>
-													<div class="select-dis">
-
-														<img src="https://s-media-cache-ak0.pinimg.com/736x/e1/b6/1b/e1b61b9798a2aeaf952922b84ecae791.jpg"/>
-													</div>
-													<br>
-												</div>
-
-											</li>
-											<li>
-												<div class="select-block">
-													<div class="">
-														<p>room</p>
-													</div>
-													<div class="select-check"></div>
-													<div class="select-dis">
-
-														<img src="https://s-media-cache-ak0.pinimg.com/736x/e1/b6/1b/e1b61b9798a2aeaf952922b84ecae791.jpg"/>
-													</div>
-													<br>
-												</div>
-
-											</li>
-
-										</ul>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="booking-blocks">
-						<h3>price</h3>
-						<p>hello world</p>
-					</div>
-
 				</div>
 				<!-- end booking panel -->
 			</div>
@@ -272,41 +198,41 @@ if ( !get_theme_mod( 'hide_partner_logos' ) ):
 
 <!-- mad added-->
 <div style="background-color: rgb(35, 40, 45)">
-<div class="section group">
-	<div style="visibility: visible;" class="client animated fadeInUp" data-fx="fadeInUp">
-		<h3 style="color:#fff">Guest s comments</h3>
-	</div>
-</div>
-<div class="section group">
-
-	<div class="col span_1_of_3">
-		<?php if ( is_active_sidebar( 'left_column' ) && dynamic_sidebar('left_column') ) : else : ?>
-		<div class="widget">
-			<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
-			<?php echo '<p>' . __('This left column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
+	<div class="section group">
+		<div style="visibility: visible;" class="client animated fadeInUp" data-fx="fadeInUp">
+			<h3 style="color:#fff">Guest s comments</h3>
 		</div>
-		<?php endif; ?>
 	</div>
+	<div class="section group">
 
-	<div class="col span_1_of_3">
-		<?php if ( is_active_sidebar( 'center_column' ) && dynamic_sidebar('center_column') ) : else : ?>
-		<div class="widget">
-			<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
-			<?php echo '<p>' . __('This center column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
+		<div class="col span_1_of_3">
+			<?php if ( is_active_sidebar( 'left_column' ) && dynamic_sidebar('left_column') ) : else : ?>
+			<div class="widget">
+				<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
+				<?php echo '<p>' . __('This left column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
+			</div>
+			<?php endif; ?>
 		</div>
-		<?php endif; ?>
 
-	</div>
+		<div class="col span_1_of_3">
+			<?php if ( is_active_sidebar( 'center_column' ) && dynamic_sidebar('center_column') ) : else : ?>
+			<div class="widget">
+				<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
+				<?php echo '<p>' . __('This center column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
+			</div>
+			<?php endif; ?>
 
-	<div class="col span_1_of_3">
-		<?php if ( is_active_sidebar( 'right_column' ) && dynamic_sidebar('right_column') ) : else : ?>
-		<div class="widget">
-			<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
-			<?php echo '<p>' . __('This right column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
 		</div>
-		<?php endif; ?>
+
+		<div class="col span_1_of_3">
+			<?php if ( is_active_sidebar( 'right_column' ) && dynamic_sidebar('right_column') ) : else : ?>
+			<div class="widget">
+				<?php echo '<h4>' . __('Widget Ready', 'brasserie') . '</h4>'; ?>
+				<?php echo '<p>' . __('This right column is widget ready! Add one in the admin panel.', 'brasserie') . '</p>'; ?>
+			</div>
+			<?php endif; ?>
+		</div>
 	</div>
-</div>
 </div>
 <!-- mad added-->
 
